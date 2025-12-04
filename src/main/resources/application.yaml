@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: store
+
+
+notification :
+  serviceName: sms
+
+mail:
+  host: imabhishek028
+  port: 5617
+
+
+

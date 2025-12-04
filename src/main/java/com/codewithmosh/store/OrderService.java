@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class OrderService {
-   private PaymentService paymentService;
+   private final PaymentService paymentService;
 
 
    @Autowired // we need to add this annotation if more constructors
