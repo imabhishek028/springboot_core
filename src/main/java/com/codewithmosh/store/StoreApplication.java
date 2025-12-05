@@ -1,7 +1,9 @@
 package com.codewithmosh.store;
 
-import com.codewithmosh.store.notifications.SendNotificationService;
-import com.codewithmosh.store.dependencyInjection.User;
+import com.exercise.notifications.OrderService;
+import com.exercise.notifications.SendNotificationService;
+import com.exercise.notifications.UserService;
+import com.exercise.notifications.dependencyInjection.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

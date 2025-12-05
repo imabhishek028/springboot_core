@@ -1,4 +1,4 @@
-package com.codewithmosh.store.dependencyInjection;
+package com.exercise.notifications.dependencyInjection;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

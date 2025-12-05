@@ -1,4 +1,4 @@
-package com.codewithmosh.store.dependencyInjection;
+package com.exercise.notifications.dependencyInjection;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;

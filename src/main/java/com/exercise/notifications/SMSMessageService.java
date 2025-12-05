@@ -1,7 +1,4 @@
-package com.codewithmosh.store.notifications;
-
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Service;
+package com.exercise.notifications;
 
 //@Service("sms")
 //@Primary

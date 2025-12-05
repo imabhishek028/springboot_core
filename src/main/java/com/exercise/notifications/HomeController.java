@@ -1,4 +1,4 @@
-package com.codewithmosh.store;
+package com.exercise.notifications;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

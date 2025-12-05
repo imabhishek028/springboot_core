@@ -1,8 +1,8 @@
-package com.codewithmosh.store;
+package com.exercise.notifications;
 
-import com.codewithmosh.store.dependencyInjection.NotificationService;
-import com.codewithmosh.store.dependencyInjection.User;
-import com.codewithmosh.store.dependencyInjection.UserRespository;
+import com.exercise.notifications.dependencyInjection.NotificationService;
+import com.exercise.notifications.dependencyInjection.User;
+import com.exercise.notifications.dependencyInjection.UserRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

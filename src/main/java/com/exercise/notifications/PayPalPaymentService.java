@@ -1,4 +1,4 @@
-package com.codewithmosh.store;
+package com.exercise.notifications;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

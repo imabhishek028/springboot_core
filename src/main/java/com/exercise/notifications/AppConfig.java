@@ -1,4 +1,4 @@
-package com.codewithmosh.store.notifications;
+package com.exercise.notifications;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

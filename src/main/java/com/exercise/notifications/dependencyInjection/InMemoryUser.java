@@ -1,4 +1,4 @@
-package com.codewithmosh.store.dependencyInjection;
+package com.exercise.notifications.dependencyInjection;
 
 
 import org.springframework.stereotype.Repository;

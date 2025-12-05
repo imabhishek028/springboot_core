@@ -1,4 +1,4 @@
-package com.codewithmosh.store.dependencyInjection;
+package com.exercise.notifications.dependencyInjection;
 
 public class User {
     private String name;
