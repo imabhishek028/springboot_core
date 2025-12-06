@@ -1,6 +1,10 @@
 package com.codewithmosh.store;
 
+import com.codewithmosh.store.exercise_entities_mapping.Categories;
+import com.codewithmosh.store.exercise_entities_mapping.Product;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.math.BigDecimal;
 
 @SpringBootApplication
 public class StoreApplication {
@@ -40,6 +44,15 @@ public class StoreApplication {
 //          user.setProfile(profile);
 //          profile.setUser(user);
 //          System.out.println(user);
+
+           var product = new Product(1, "khel", new BigDecimal("12.90"));
+           var category= new Categories("sports");
+
+           // this can be encapsulated in category or products
+           product.setCategory(category);
+           category.getProducts().add(product);
+
+            System.out.println(product.getCategory());
 
     }
 

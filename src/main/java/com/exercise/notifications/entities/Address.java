@@ -30,7 +30,6 @@ public class Address {
 
     @ManyToOne
     @JoinColumn(name="userd_id")
-//    @MapsId // tells hibernate that this field is
     private User user;
 
 
